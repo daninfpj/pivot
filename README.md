@@ -1,6 +1,10 @@
-# Find pivot of a list of integer
+# Find pivot of a list of integers
 
 We define the pivot index as the index where the sum of the numbers on the left is equal to the sum of the numbers on the right.
+
+## Code
+
+The relevant code is located at https://github.com/daninfpj/pivot/blob/master/lib/find_pivot.rb
 
 ## Tests
 
@@ -11,6 +15,10 @@ rspec
 ```
 
 ## Benchmark
+
+```
+ruby benchmark.rb
+```
 
 Compares this implementation with a “naive” one for a list of 100,000 integers.
 
