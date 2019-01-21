@@ -24,6 +24,6 @@ Compares this implementation with a “naive” one for a list of 100,000 intege
 
 ```
        user     system      total        real
-pivot  0.030000   0.000000   0.030000 (  0.028390)
-naive 22.870000   0.020000  22.890000 ( 22.936675)
+pivot  0.000000   0.000000   0.000000 (  0.007448)
+another 22.980000   0.030000  23.010000 ( 23.024549)
 ```

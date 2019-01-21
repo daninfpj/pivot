@@ -11,11 +11,11 @@ def find_pivot_naive(array)
   -1
 end
 
-number = 100_000
+number = 10_000_0
 left = Array.new(number) { rand(1000) }
 right = left.dup.shuffle
 
 Benchmark.bm do |x|
   x.report('pivot') { find_pivot(left + [0] + right) }
-  x.report('naive') { find_pivot_naive(left + [0] + right) }
+  x.report('another') { find_pivot_naive(left + [0] + right) }
 end
